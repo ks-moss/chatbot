@@ -22,7 +22,7 @@ def correct_typos(user_input):
 # Define pairs of patterns and responses
 pairs = [
     ["hi|hello|hey", ["Hello!", "Hi there!"]],
-    ["how are you?", ["I'm good, thanks!", "I'm just a chatbot, but I'm here to help!"]],
+    ["how are you?", ["I'm good, thanks!", "I'm good. I'm just a chatbot, but I'm here to help!"]],
     ["bye|goodbye", ["Goodbye!", "Have a great day!"]],
     ["None", ["I'm sorry, I don't have information on that.", "I can't provide details about that."]],
 ]
